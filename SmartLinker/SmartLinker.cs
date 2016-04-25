@@ -40,7 +40,7 @@ namespace SmartLinker
             if (guid.Length == 7)
             {
                 Match m = r.Match(guid);
-                while (m.Success)
+                while (m.Success) 
                 {
                     //If we have a smart link- next we need to lookup in the database where to send them.
                     SqlCommand oSQL = new SqlCommand();
